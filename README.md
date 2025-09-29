@@ -80,5 +80,5 @@ Para ejecutar el codigo basta con copiar el repositorio, agregar el archivo de d
 ## 🔮 Próximos pasos
 
 - Implementar monitoreo en producción (drift de features y performance del modelo).  
-- Automatizar el pipeline con Airflow/Composer.  
+- Automatizar el pipeline con Airflow.  
 - Explorar modelos más avanzados (redes neuronales).
