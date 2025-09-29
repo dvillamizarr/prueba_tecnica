@@ -10,7 +10,7 @@ Incluye desde la ingesta de datos hasta el almacenamiento del modelo en un model
 
 ## 📌 Descripción General
 
-El objetivo del proyecto es *estimar la demanda de productos publicados en MercadoLibre*, identificando los factores que más influyen en las ventas (ej. reputación del vendedor, precio, estado del producto).  
+El objetivo del proyecto es *estimar la demanda de productos publicados en MercadoLibre*, identificando los factores que más influyen en las ventas como la reputación del vendedor, precio y estado del producto, entre otras.  
 
 El repositorio contiene los archivos que cubren todo el ciclo de vida del modelo. El notebook `Prueba_MercadoLibre.ipynb` contiene el informe detallado de la solución, haciendo enfasis en las razones de cada decisión, la explicación de las metodologías utilizadas y el análisis de resultados. Distribuido de la siguiente manera:
 
