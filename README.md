@@ -61,7 +61,7 @@ El repositorio contiene los archivos que cubren todo el ciclo de vida del modelo
 ```
 ---
 
-## Ejecutar el código 
+## 🗿 Ejecutar el código 
 
 Para ejecutar el codigo basta con copiar el repositorio, agregar el archivo de datos `new_items_dataset.csv` a la carpeta resultante y ejecutar el notebook `Prueba_MercadoLibre.ipynb`
 
