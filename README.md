@@ -1,4 +1,4 @@
-# MercadoLibre Demand Prediction
+# Prueba Tecnica Mercadolibre
 
 Este proyecto implementa un *pipeline de Machine Learning end-to-end* para predecir la *cantidad vendida de una publicación en MercadoLibre*.  
 
