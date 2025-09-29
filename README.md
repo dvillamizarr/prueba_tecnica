@@ -1,4 +1,4 @@
-# Prueba Tecnica Mercadolibre
+# Prueba Técnica Mercadolibre
 
 Este proyecto implementa un *pipeline de Machine Learning end-to-end* para predecir la *cantidad vendida de una publicación en MercadoLibre*.  
 
