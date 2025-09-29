@@ -21,6 +21,7 @@ class DataAnalyzer():
         return numeric_describe, categorical_describe
 
     def remove_inconsisten_values(self):
+    ''' Función para eliminar los valores inconsistentes encontrados en las variables categoricas'''
         self.df[self.cat_cols] = self.df[self.cat_cols].astype(str).astype("category")
         loyalty_out = ['70.0', '80.0', '5500.0', '100.0']
         buying_out = ["['dragged_bids_and_visits']"]
@@ -93,10 +94,12 @@ class DataAnalyzer():
         #return pd.DataFrame(outlier_dct)
 
     def remove_outliers(self, method="zscore"):
+        '''Funcion para eliminar outliers basado en el metodo del zscore'''
         for col in self.num_cols:
             self.df = self.df[(self.df[f"zscore_{col}"]<3) & (self.df[f"zscore_{col}"]>-3)]
 
     def clean_data(self, impute=True, drop=True, remove_na=False):
+        '''Función para limpiar los datos. se encarga de remover valores inconsistentes, outliers, imputar columnas o eliminar valores faltantes'''
         self.remove_inconsisten_values()
         self.remove_outliers()
         if drop:
@@ -109,6 +112,7 @@ class DataAnalyzer():
         return self.df
         
     def _categorical_analysis(self):
+        '''Función para analizar variables categoricas '''
         unique_vals = []
         n_unique_vals = []
         mode = []
