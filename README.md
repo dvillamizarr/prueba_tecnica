@@ -51,16 +51,20 @@ El repositorio contiene los archivos que cubren todo el ciclo de vida del modelo
 
 ## 📂 Estructura del Repositorio
 
-📂 Estructura del Repositorio
-
 ```bash
 .
 ├── data_analyzer.py/    # Archivo que contiene la clase `DataAnalyzer` 
 ├── feature_engineer.py/                # Archivo que contiene la clase `FeatureEngineer` 
 ├── model_predict.py/              # Archivo que contiene la clase `ModelPredict`
-├── Prueba_MercadoLibre.py/              # Archivo que el informe detallado
+├── Prueba_MercadoLibre.ipynb/              # Archivo que el informe detallado
 ├── README.md            # Documentación del proyecto
 ```
+---
+
+## Ejecutar el código 
+
+Para ejecutar el codigo basta con copiar el repositorio, agregar el archivo de datos `new_items_dataset.csv` a la carpeta resultante y ejecutar el notebook `Prueba_MercadoLibre.ipynb`
+
 ---
 ## 📈 Resultados principales
 
