@@ -4,6 +4,8 @@ Este proyecto implementa un *pipeline de Machine Learning end-to-end* para prede
 
 Incluye desde la ingesta de datos hasta el almacenamiento del modelo en un model store y el dataset en una base analítica.
 
+**NOTA: Para poder ejecutar el codigo se requiere hacer referencia al archivo de datos, el cual por tamaño no puedo ser agregado al repositorio**
+
 ---
 
 ## 📌 Descripción General
