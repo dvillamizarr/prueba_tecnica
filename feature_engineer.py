@@ -57,6 +57,7 @@ class FeatureEngineer():
 
 
     def _data_split(self, test_size, random_state):
+        '''Función auxiliar para separar datos en entrenamiento y test'''
         Y = self.df["sold_quantity"].copy()
         X = self.df[self.num_cols+self.cat_cols].copy()
         self.x_train, self.x_test, self.y_train, self.y_test = train_test_split(X, Y, test_size=test_size, random_state=random_state)
@@ -64,6 +65,7 @@ class FeatureEngineer():
     
 
     def _column_transformer_feature_names(self, col_transformer):
+        '''Función auxiliar para extraer los nombres de las columnas de un objeto column transformer'''
         steps = col_transformer.named_transformers_.keys()
         variable_names = []
         for step in steps:
