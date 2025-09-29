@@ -40,6 +40,9 @@ El repositorio contiene los archivos que cubren todo el ciclo de vida del modelo
 
 6. `Estretagia de Monitoreo`, sección en la cual:
    -  Se presenta una propuesta para monitorear el modelo
+
+7. `Pipeline`, sección en la cual:
+   -  Se presenta una alternativa para produccionalizar el modelo
 ---
 
 ## 🚀 Tecnologías Utilizadas
